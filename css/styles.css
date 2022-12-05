@@ -1,0 +1,325 @@
+:root {
+    
+    --primary-bg: #E5E5E5;
+    --primary-brand: #4d5ae5;
+    --navy-biue: #2e2f42;
+    --body-text: #434455;
+    --subtle-text: #8e8f99;
+    --accent-color: #e7e9fc;
+    --light-cloud: #f4f4fd;
+    --green: #31d0aa;
+    --white: #ffffff;
+    --focus-button: #404BBF;
+    --border-button: #E7E9FC;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-text);
+    background-color: var(--white);
+}
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.hidden {
+    display: none;
+}
+.container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.section {
+    background-color: var(--primary-bg);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.nav {
+    display: flex;
+
+    border-bottom: solid 2px var(--subtle-text);
+    align-items: center;
+
+
+}
+.logo, .web {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo {
+    display: block;
+    padding-right: 77px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--navy-biue);
+    font-weight: 800;
+    font-size: 18px;
+
+}
+.logo:hover,
+.web:hover {
+    color: var(--body-text);
+}
+.logo:focus,
+.web:focus {
+    color: var(--primary-brand); 
+}
+.web {
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-brand);
+    font-weight: 800;
+    font-size: 18px;
+}
+.site-nav {
+    display: flex;
+    
+}.site-nav .item:not(:last-child) {
+    margin-right: 40px;
+}
+.link-nav {
+    display: block;
+    color: var(--navy-biue);
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.link-nav:hover {
+    color: var(--body-text);
+}
+.link-nav:focus {
+    color: var(--primary-brand);
+}
+.contact {
+    display: flex;
+    margin-left: auto;
+}
+.primary-contact {
+    display: block;
+    color: var(--body-text);
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.primary-contact:hover,
+.primary-contact:focus {
+    color: var(--primary-brand);
+}
+.contact .item + .item {
+    margin-left: 40px;
+}
+.hero {
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 600;
+    text-align: center;
+    padding: 192px 300px 44px;
+}
+.section-hero {
+    background-color: var(--navy-biue);
+    
+    
+    
+}
+.benefits {
+    display: flex;
+}
+.li {
+    display: flex;
+    flex-direction: column;
+}
+.li:not(:last-child) {
+    margin-right: 24px;
+}
+.section-title {
+    color: var(--navy-biue);
+    font-size: 36px;
+    font-weight: 600;
+}
+.wd {
+    display: block;
+    margin-left: 388px;
+    margin-right: 388px;
+    margin-bottom: 72px;
+
+}
+.services {
+    display: flex;
+}
+.services .items {
+    display: flex;
+}
+.services .items:not(:last-child) {
+    margin-right: 24px;
+}
+.ot {
+    display: block;
+    margin-left: 468px;
+    margin-right: 468px;
+    margin-bottom: 72px;
+}
+.cards-team {
+    display: flex;
+
+}
+.card-team {
+    background-color: var(--white);
+    display: flex;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    
+}
+.card-team:not(:last-child) {
+    margin-right: 24px;
+}
+.card-text {
+    padding: 32px 60px;
+}
+.subtitle {
+    display: flex;
+    color: var(--navy-biue);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.subtitle.tiam {
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background-color: var(--navy-biue);
+}
+.logo-footer,
+.web-footer {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    color: var(--light-cloud);
+    font-weight: 800;
+    font-size: 18px;
+        display: block;
+        padding-top: 100px;
+}
+
+.logo-footer:hover,
+.web-footer:hover {
+    color: var(--body-text);
+}
+.logo-footer:focus,
+.web-footer:focus {
+
+    color: var(--primary-brand);
+}
+.web-footer {
+
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-brand);
+    font-weight: 800;
+    font-size: 18px;
+}
+.footer-text {
+    color: var(--accent-color);
+    margin-top: 16px;
+    padding-right: 864px;
+    padding-bottom: 100px;
+}
+
+.button {
+   display: inline-block;
+   color: inherit;
+   background-color: var(--light-cloud);
+   cursor: pointer;
+   font-weight: 600;
+   text-align: center;
+   padding: 12px 24px;
+   border-radius: 4px;
+   
+}
+.button.primary {
+    color: var(--white);
+    background-color: var(--primary-brand);
+    border: 1px solid var(--focus-button);
+}
+.button.secondary {
+    color: var(--primary-brand);
+    background-color: var(--light-cloud);
+    border: 1px solid var(--border-button);
+}
+.button.primary:hover, 
+.button.secondary:hover{
+    color: var(--white);
+    background-color: var(--primary-brand);
+}
+.button.primary:focus,
+.button.secondary:focus {
+    color: var(--white);
+    background-color: var(--focus-button);
+}
+.button.btn {
+    padding: 16px 32px;
+    margin-left: 461px;
+    margin-right: 461px;
+    margin-bottom: 192px;
+
+}
+.cards-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * 24px);
+    margin-top: calc(-1*48px);
+
+}
+.card-portfolio {
+    width: calc(100% / 3 - 24px);
+    margin-left: 24px;
+    margin-top: 48px;
+}
+.portfolio-unit {
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.portfolio-text {
+    padding-left: 16px;
+}
+.subtitle.portfolio {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+.subtitle-text {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 32px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
+    
+}
+.type {
+    display: flex;
+}
+.type:not(:last-child) {
+    margin-right: 24px;
+}

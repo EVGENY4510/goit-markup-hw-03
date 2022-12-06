@@ -47,10 +47,11 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.section-header {
+    border-bottom: 2px solid var(--subtle-text);
+}
 .nav {
     display: flex;
-
-    border-bottom: solid 2px var(--subtle-text);
     align-items: center;
 
 
@@ -61,7 +62,7 @@ img {
 }
 .logo {
     display: block;
-    padding-right: 77px;
+    margin-right: 77px;
     font-family: 'Raleway', sans-serif;
     color: var(--navy-biue);
     font-weight: 800;
@@ -125,16 +126,21 @@ img {
     font-size: 56px;
     font-weight: 600;
     text-align: center;
-    padding: 192px 300px 44px;
+    margin-bottom: 48px;
+    
 }
 .section-hero {
     background-color: var(--navy-biue);
-    
-    
-    
+    padding-top: 192px;
+    padding-bottom: 192px;
 }
 .benefits {
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 .li {
     display: flex;
@@ -148,13 +154,16 @@ img {
     font-size: 36px;
     font-weight: 600;
 }
+.section-wd {
+    background-color: var(--primary-bg);
+    padding-bottom: 120px;
+}
 .wd {
     display: block;
-    margin-left: 388px;
-    margin-right: 388px;
+    text-align: center;
     margin-bottom: 72px;
-
 }
+
 .services {
     display: flex;
 }
@@ -164,10 +173,12 @@ img {
 .services .items:not(:last-child) {
     margin-right: 24px;
 }
+.section .team {
+    background-color: var(--light-cloud)
+}
 .ot {
     display: block;
-    margin-left: 468px;
-    margin-right: 468px;
+    text-align: center;
     margin-bottom: 72px;
 }
 .cards-team {
@@ -230,6 +241,11 @@ img {
 
     color: var(--primary-brand);
 }
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
 .web-footer {
 
     font-family: 'Raleway', sans-serif;
@@ -240,8 +256,10 @@ img {
 .footer-text {
     color: var(--accent-color);
     margin-top: 16px;
-    padding-right: 864px;
-    padding-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .button {
@@ -277,9 +295,8 @@ img {
 }
 .button.btn {
     padding: 16px 32px;
-    margin-left: 461px;
-    margin-right: 461px;
-    margin-bottom: 192px;
+    margin-left: 480px;
+    margin-right: 480px;
 
 }
 .cards-portfolio {
@@ -300,7 +317,7 @@ img {
 
 }
 .portfolio-text {
-    padding-left: 16px;
+    padding:32px 16px
 }
 .subtitle.portfolio {
     margin-top: 32px;
@@ -309,12 +326,12 @@ img {
 .subtitle-text {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 32px;
+
 }
 .buttons {
     display: flex;
     justify-content: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     
 }
 .type {

@@ -48,9 +48,7 @@ img {
     padding-bottom: 120px;
 }
 .section-header {
-    border-bottom: 2px solid var(--subtle-text);
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 2px solid var(--light-cloud);
 }
 .nav {
     display: flex;
@@ -147,6 +145,7 @@ img {
 .li {
     display: flex;
     flex-direction: column;
+    width: 264px;
 }
 .li:not(:last-child) {
     margin-right: 24px;
